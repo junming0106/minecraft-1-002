@@ -17,12 +17,12 @@ player.onChat("run", function () {
 ## Step 2：認識世界座標 world()
 世界裡每一個地方都有住址。
 world(數字, 數字, 數字) 就是位置。
-第一個是前後的位置。
-第二個是高低的位置。
-第三個是左右的位置。
+試著把自己傳送到以下位置(525, -60, 500)
 
 ```blocks
-world(0, 0, 0)
+player.onChat("1", function () {
+    player.teleport(world(525, -60, 500))
+})
 ```
 
 ---
